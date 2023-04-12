@@ -57,4 +57,8 @@ export class MovimentacaoNewComponent implements OnInit {
         });
   }
 
+  refresh(): void {
+    window.location.reload();
+}
+
 }
